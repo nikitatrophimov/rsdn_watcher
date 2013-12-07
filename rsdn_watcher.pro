@@ -12,9 +12,8 @@ TARGET = rsdn_watcher
 TEMPLATE = app
 
 LIBS += -Le:/libs/boost_1_54_0/stage/lib
-LIBS += e:/libs/htmlcxx-0.84/Debug/htmlcxx.lib
-LIBS += e:/libs/curl-7.29.0/lib/DLL-Debug/libcurld_imp.lib
-INCLUDEPATH += e:/libs/mt4_manager_api e:/libs/boost_1_54_0 e:/libs/t4b-lib/include e:/libs/htmlcxx-0.84 e:/libs/curl-7.29.0/include
+LIBS += e:/libs/curl-7.29.0/lib/DLL-Release/libcurl_imp.lib
+INCLUDEPATH += e:/libs/boost_1_54_0 e:/libs/curl-7.29.0/include
 
 SOURCES += main.cpp\
         mainwindow.cpp \
